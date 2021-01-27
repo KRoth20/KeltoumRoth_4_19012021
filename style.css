@@ -388,6 +388,7 @@ a:focus{
     width: 60%;
     margin: auto;
 }
+
 .formulaire h2{
     text-align: center;
 }
@@ -401,6 +402,25 @@ a:focus{
     text-align: center;
     padding: 50px;
 }
+/*ajouts media pour optimiser le responsive*/
+@media (max-width: 500px){
+    .localisation{
+        padding: 50px 0 50px 0!important;
+    }
+    .loc{
+        width: 100%!important;
+    }
+    .tight-width-whitespace{
+        width: 100%!important;
+    }
+    .formulaire{
+        width: 80%!important;
+    }
+    .col-sm-6 img{
+        width: 90%!important;
+    }
+}
+/*ajouts media pour optimiser le responsive*/
 .map{
 width: 100%;
 margin: auto;
@@ -735,6 +755,7 @@ p {
     margin: auto auto auto auto;
 }
 
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -834,7 +855,6 @@ h4 {
 
 .tc-white {
     color: #f3976C!important;
-    font-weight: lighter;
 }
 
 .btn-atomic-tangerine {
