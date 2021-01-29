@@ -761,7 +761,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -1051,11 +1051,11 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
+    /* .navbar-brand img {
         max-height: 200px;
         margin: 0 5px 0 0;
         display: inline;
-    }
+    } */
     .navbar-header img {
         height: 40px;
         margin-top: 5px;
