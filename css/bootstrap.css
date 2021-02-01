@@ -1413,6 +1413,7 @@ a {
 a:focus,
 a:hover {
     text-decoration: none
+
 }
 
 a:focus {
@@ -2045,7 +2046,7 @@ pre code {
 .col-sm-12,
 .col-sm-2,
 .col-sm-3,
-.col-sm-4,
+/* .col-sm-4, */
 .col-sm-5,
 .col-sm-6,
 .col-sm-7,
@@ -2067,25 +2068,6 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
-}
-footer .col-sm-4{
-    width: 100%;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer .col-sm-4 p{
-    padding-right: 20px;
-    font-size: 1em;
-    color: white;
-}
-
-footer li{
-    display: flex;
-    padding-right: 20px;
-}
-footer .row{
-    padding-top: 20px;
 }
 
 .col-xs-1,
@@ -2322,7 +2304,6 @@ footer .row{
     .col-sm-9 {
         float: left
     }
-  
     .col-sm-12 {
         width: 100%
     }
@@ -3043,22 +3024,6 @@ table th[class*=col-] {
 }
 
 @media screen and (max-width:767px) {
-    footer .col-sm-4{
-        width: 100%;
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    footer .col-sm-4 p{
-        align-items: center;
-    }
-    footer li{
-        display: flex;
-        padding: 0px;
-    }
-    
-
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;

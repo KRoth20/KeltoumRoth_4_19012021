@@ -913,6 +913,26 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+footer .col-sm-4{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .col-sm-4 p{
+    padding-right: 20px;
+    font-size: 1em;
+    color: white;
+}
+
+footer li{
+    display: flex;
+    padding-right: 20px;
+}
+footer .row{
+    padding-top: 20px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1120,6 +1140,20 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    footer .col-sm-4{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .col-sm-4 p{
+        align-items: center;
+    }
+    footer li{
+        display: flex;
+        padding: 0px;
     }
 }
 
